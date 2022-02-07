@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="559dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="6dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
+
+
+        <RelativeLayout
+            android:id="@+id/r4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--ImageVIew to display our Course Image-->
+            <ImageView
+                android:id="@+id/im4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/doc" />
+
+            <!--Text View to display Course Name-->
+            <TextView
+                android:id="@+id/cn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/im4"
+                android:text="Dr. Manjula"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Text VIew to display COurse Rating-->
+            <!--Image used in present in drawable folder-->
+            <TextView
+                android:id="@+id/cd4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cn4"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/im4"
+                android:drawablePadding="2dp"
+                android:text="EYE Specialist" />
+
+            <Button
+                android:id="@+id/cb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="70dp"
+                android:layout_toEndOf="@id/im4"
+                android:text="CALL"
+                android:background="@drawable/shape"/>
+
+            <Button
+                android:id="@+id/bc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="166dp"
+                android:layout_marginTop="70dp"
+                android:layout_toEndOf="@id/im4"
+                android:text="BOOK"
+                android:background="@drawable/shape"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c3"
+        android:layout_width="412dp"
+        android:layout_height="169dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="178dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
+
+
+        <RelativeLayout
+            android:id="@+id/r3"
+            android:layout_width="412dp"
+            android:layout_height="match_parent">
+
+            <!--ImageVIew to display our Course Image-->
+            <ImageView
+                android:id="@+id/im3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/doc" />
+
+            <!--Text View to display Course Name-->
+            <TextView
+                android:id="@+id/cn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/im3"
+                android:text="Dr. Manohar"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Text VIew to display COurse Rating-->
+            <!--Image used in present in drawable folder-->
+            <TextView
+                android:id="@+id/cd3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cn3"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/im3"
+                android:drawablePadding="2dp"
+                android:text="Opticians" />
+
+            <Button
+                android:id="@+id/cb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="70dp"
+                android:layout_toEndOf="@id/im3"
+                android:text="CALL"
+                android:background="@drawable/shape"/>
+
+            <Button
+                android:id="@+id/bc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="166dp"
+                android:layout_marginTop="70dp"
+                android:layout_toEndOf="@id/im3"
+                android:text="BOOK"
+                android:background="@drawable/shape"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c2"
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="353dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
+
+
+        <RelativeLayout
+            android:id="@+id/r2"
+            android:layout_width="398dp"
+            android:layout_height="141dp">
+
+            <!--ImageVIew to display our Course Image-->
+            <ImageView
+                android:id="@+id/im2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                app:srcCompat="@drawable/doc"
+                tools:src="@drawable/doc"
+                tools:srcCompat="@drawable/doc" />
+
+            <!--Text View to display Course Name-->
+            <TextView
+                android:id="@+id/cn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/im2"
+                android:text="Dr. Veena"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Text VIew to display COurse Rating-->
+            <!--Image used in present in drawable folder-->
+            <TextView
+
+                android:id="@+id/cd2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cn2"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/im2"
+                android:drawablePadding="2dp"
+                android:text="Optometerists" />
+
+            <Button
+
+                android:id="@+id/cb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="70dp"
+                android:layout_toEndOf="@id/im2"
+                android:text="CALL"
+                android:background="@drawable/shape"/>
+
+            <Button
+                android:id="@+id/bc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="166dp"
+                android:layout_marginTop="70dp"
+                android:layout_toEndOf="@id/im2"
+                android:text="BOOK"
+                android:background="@drawable/shape"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c1"
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="530dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
+
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="189dp">
+
+            <!--ImageVIew to display our Course Image-->
+            <ImageView
+                android:id="@+id/im1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/doc" />
+
+            <!--Text View to display Course Name-->
+            <TextView
+                android:id="@+id/cn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/im1"
+                android:text="Dr. Suresh"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Text VIew to display COurse Rating-->
+            <!--Image used in present in drawable folder-->
+
+            <TextView
+
+                android:id="@+id/cd1"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cn1"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="12dp"
+                android:layout_toEndOf="@id/im1"
+                android:drawablePadding="2dp"
+                android:text="Ophthalmlogists" />
+
+            <Button
+
+                android:id="@+id/cb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="70dp"
+                android:layout_toEndOf="@id/im1"
+                android:text="CALL"
+                android:background="@drawable/shape"/>
+
+            <Button
+                android:id="@+id/bc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="166dp"
+                android:layout_marginTop="70dp"
+                android:layout_toEndOf="@id/im1"
+                android:text="BOOK"
+                android:background="@drawable/shape"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
